@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.proyecto.tienda.model.Orden;
-import com.curso.ecommerce.model.Producto;
-import com.curso.ecommerce.service.IOrdenService;
-import com.curso.ecommerce.service.IUsuarioService;
-import com.curso.ecommerce.service.ProductoService;
+import com.proyecto.tienda.model.Producto;
+import com.proyecto.tienda.service.IOrdenService;
+import com.proyecto.tienda.service.IUsuarioService;
+import com.proyecto.tienda.service.ProductoService;
 
 @Controller
 @RequestMapping("/administrador")
